@@ -1,0 +1,35 @@
+body{
+
+    background-color: green
+}
+h1{
+    color: white;
+    font-family: ´Popins´,sans-serif;
+    text-align: center;
+}
+#logueo, #guardar{
+    background-color: red;
+    color: white;
+    border:1px solid blue;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+ #logueo:hover, #guardar:hover{
+        background-color: white;
+        color:black;
+    }
+    #contenedor{
+        width: auto;
+        text-align: center;
+}
+#foto{
+        width:50%;
+        height:400px;
+        margin:0 auto; 
+        position: relative;
+        background-image:url("https://image.freepik.com/foto-gratis/persona-que-tiene-videollamada-negocios-interiores_23-2148667521.jpg");
+        background-size: contain;
+        background-repeat:no-repeat;
+    }
+
